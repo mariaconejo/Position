@@ -1,3 +1,4 @@
+/* Primer bloque, wrapper, header, .clearfix */
 .wrapper{
     width: 1000px;
     height: 500px;
@@ -14,5 +15,40 @@
     content: "";   
     clear: both;   
     display: table;
+}
+
+/* Segundo bloque top, bottom, right, left */
+/* position relative sirve para decirle al position absolute donde moverse */
+#top{
+    background-color: #fef200;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+
+#bottom{
+    background-color: #e600ff;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+}
+
+#right{
+    background-color: #1b1464;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
+    color: white;
+}
+
+#left{
+    background-color: #3ab54b;
+    height: 500px;
+    width: 250px;
+    float: left;
+    position: relative;
 }
 
